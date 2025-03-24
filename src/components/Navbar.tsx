@@ -18,6 +18,9 @@ function Navbar() {
                     <a href="#signup" className="signup">Sign Up</a>
                 </div>
             </div>
+            <div className="nav__hamburger">
+                <i className="ri-menu-fill"></i>
+            </div>
         </nav>
     )
 }
