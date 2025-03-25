@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+// Typography Variables
+$font-family-primary: "Poppins", sans-serif;
+$font-family-secondary: "Inter", sans-serif;
+
+// Headline Font Sizes
+$headline-1-font-size: 4rem; // 64px
+$headline-1-line-height: 4.75rem; // 76px
+
+$headline-2-font-size: 2.25rem; // 36px
+$headline-2-line-height: 2.75rem; // 44px
+
+$headline-3-font-size: 1.75rem; // 28px
+$headline-3-line-height: 2.25rem; // 36px
+
+$headline-4-font-size: 1.25rem; // 20px
+$headline-4-line-height: 1.75rem; // 28px
+
+// Body Font Sizes
+$body-1-font-size: 1.125rem; // 18px
+$body-1-line-height: 1.75rem; // 28px
+
+$body-2-font-size: 1rem; // 16px
+$body-2-line-height: 1.5rem; // 24px
+
+$body-3-font-size: 0.875rem; // 14px
+$body-3-line-height: 1.25rem; // 20px
+
+$body-4-font-size: 0.75rem; // 12px
+$body-4-line-height: 1rem; // 16px
+
+// Example Usage
+h1 {
+  font-family: $font-family-primary;
+  font-size: $headline-1-font-size;
+  line-height: $headline-1-line-height;
+  font-weight: 600; // Semi Bold
+}
+
+h2 {
+  font-family: $font-family-primary;
+  font-size: $headline-2-font-size;
+  line-height: $headline-2-line-height;
+  font-weight: 600; // Semi Bold
+}
+
+h3 {
+  font-family: $font-family-primary;
+  font-size: $headline-3-font-size;
+  line-height: $headline-3-line-height;
+  font-weight: 600; // Semi Bold
+}
+
+h4 {
+  font-family: $font-family-primary;
+  font-size: $headline-4-font-size;
+  line-height: $headline-4-line-height;
+  font-weight: 600; // Semi Bold
+}
+
+p.body-1 {
+  font-family: $font-family-secondary;
+  font-size: $body-1-font-size;
+  line-height: $body-1-line-height;
+  font-weight: 400; // Regular
+}
+
+p.body-2 {
+  font-family: $font-family-secondary;
+  font-size: $body-2-font-size;
+  line-height: $body-2-line-height;
+  font-weight: 400; // Regular
+}
+
+p.body-3 {
+  font-family: $font-family-secondary;
+  font-size: $body-3-font-size;
+  line-height: $body-3-line-height;
+  font-weight: 400; // Regular
+}
+
+p.body-4 {
+  font-family: $font-family-secondary;
+  font-size: $body-4-font-size;
+  line-height: $body-4-line-height;
+  font-weight: 400; // Regular
+}

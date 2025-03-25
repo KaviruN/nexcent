@@ -1,0 +1,27 @@
+@import '../global/_colors';
+
+.nav {
+  position: relative;
+  display: flex;
+
+  &__container {
+    display: none;
+  }
+
+  &__hamburger {
+    font-size: 1.5rem;
+    position: fixed;
+    top: 0;
+    right: 0;
+    color: $color-white;
+    background-color: $color-black;
+    margin: .5em;
+    padding: .1em .2em;
+    border-radius: .1em;
+    cursor: pointer;
+
+    &:hover {
+      background-color: lighten($color-black, $amount: 2%);
+    }
+  }
+}

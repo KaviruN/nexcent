@@ -1,33 +1,33 @@
-/* Sass Variables */
+/* Sass Variables in HSL */
 // Neutral
-$color-black: #263238;
-$color-d-grey: #4D4D4D;
-$color-grey: #717171;
-$color-l-grey: #B9B9B9;
-$color-grey-blue: #ABBED1;
-$color-silver: #F5F7FA;
-$color-white: #FFFFFF;
+$color-black: hsl(0, 0%, 0%);
+$color-d-grey: hsl(0, 0%, 30%);
+$color-grey: hsl(0, 0%, 44%);
+$color-l-grey: hsl(0, 0%, 73%);
+$color-grey-blue: hsl(210, 20%, 75%);
+$color-silver: hsl(210, 33%, 96%);
+$color-white: hsl(0, 0%, 100%);
 
 // Primary
-$color-primary: #28C8B8;
-$color-secondary: #263238;
-$color-info: #2194F3;
+$color-primary: hsl(174, 67%, 48%);
+$color-secondary: hsl(210, 15%, 14%);
+$color-info: hsl(210, 89%, 58%);
 
 // Color Shade
-$color-shade-1: #43A046;
-$color-shade-2: #388E3B;
-$color-shade-3: #237D31;
-$color-shade-4: #1B5E1F;
-$color-shade-5: #103E13;
+$color-shade-1: hsl(123, 60%, 44%);
+$color-shade-2: hsl(123, 65%, 36%);
+$color-shade-3: hsl(123, 68%, 30%);
+$color-shade-4: hsl(123, 75%, 20%);
+$color-shade-5: hsl(123, 80%, 12%);
 
 // Color Tint
-$color-tint-1: #66BB69;
-$color-tint-2: #81C784;
-$color-tint-3: #A5D6A7;
-$color-tint-4: #C8E6C9;
-$color-tint-5: #E8F5E9;
+$color-tint-1: hsl(123, 47%, 59%);
+$color-tint-2: hsl(123, 47%, 67%);
+$color-tint-3: hsl(123, 47%, 76%);
+$color-tint-4: hsl(123, 47%, 86%);
+$color-tint-5: hsl(123, 47%, 94%);
 
 // Action
-$color-warning: #FBC02D;
-$color-error: #E53B35;
-$color-success: #2E7D31;
+$color-warning: hsl(48, 89%, 55%);
+$color-error: hsl(0, 77%, 56%);
+$color-success: hsl(123, 60%, 30%);

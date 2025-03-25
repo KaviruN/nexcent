@@ -1,9 +1,9 @@
 function Navbar() {
     return (
-        <nav className="nav">
+        <nav className="nav body-2">
             <div className="nav__container">
                 <div className="nav__logo">
-                    <img src="src/assets/logo.png" alt="" />
+                    <img src="src/assets/logo.png" alt="logo" />
                 </div>
                 <ul className="nav__links">
                     <li><a href="#home">Home</a></li>
@@ -19,7 +19,7 @@ function Navbar() {
                 </div>
             </div>
             <div className="nav__hamburger">
-                <i className="ri-menu-fill"></i>
+                <i className="ri-menu-fill" />
             </div>
         </nav>
     )
