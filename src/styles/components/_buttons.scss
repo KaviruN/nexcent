@@ -1,0 +1,12 @@
+@import "../util/functions";
+
+.button {
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    border-radius: em(6);
+    padding: .6em 1em;
+
+    &:hover {
+        background-color: var(--color-tint-1);
+    }
+}
