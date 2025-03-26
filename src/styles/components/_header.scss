@@ -1,4 +1,4 @@
-@use "../util/" as u;
+@use "../global/typography" as typo;
 
 .header {
   background-color: var(--color-silver);
@@ -8,5 +8,12 @@
   justify-content: center;
   padding-top: 6em; //its for match the navbar height
 
-  
+  &__span {
+    color: var(--color-primary);
+  }
+
+  &__para {
+    @include typo.body-2;
+    color: var(--color-grey);
+  }
 }
