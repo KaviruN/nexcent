@@ -1,19 +1,40 @@
 @use "../global/typography" as typo;
+@use "../util/functions" as u;
 
 .header {
   background-color: var(--color-silver);
   height: 100dvh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  padding-top: 6em; //its for match the navbar height
+  justify-content: center; //its for match the navbar height
+  text-align: center;
+  align-items: center;
+  gap: 3em;
+
+  @media (min-width: 768px) {
+    flex-direction: row;
+    padding: u.em(96) u.em(144);
+    text-align: left;
+    justify-content: space-between;
+    // padding: 6em;
+  }
 
   &__span {
     color: var(--color-primary);
   }
 
   &__para {
+    padding: 1em;
     @include typo.body-2;
     color: var(--color-grey);
+
+    @media (min-width: 768px) {
+        padding: 1em 0;
+    }
+  }
+
+  &__hero {
+    width: 50%;
+    // align-self: center;
   }
 }

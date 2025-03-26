@@ -1,6 +1,7 @@
 @import "../util/functions";
 
 .button {
+    font-family: "Inter", sans-serif;
     background-color: var(--color-primary);
     color: var(--color-white);
     border-radius: em(6);

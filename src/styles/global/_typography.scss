@@ -31,6 +31,11 @@ $body-3-line-height: 1.25rem; // 20px
 $body-4-font-size: 0.75rem; // 12px
 $body-4-line-height: 1rem; // 16px
 
+
+a{
+  text-decoration: none;
+}
+
 // Example Usage
 h1 {
   font-family: $font-family-primary;
