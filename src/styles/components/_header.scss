@@ -1,5 +1,11 @@
-@use '../util/' as u;
+@use "../util/" as u;
 
-.header{
-    background-color: var(--color-silver);
+.header {
+  background-color: var(--color-silver);
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  
 }
