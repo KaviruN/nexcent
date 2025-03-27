@@ -31,8 +31,7 @@ $body-3-line-height: 1.25rem; // 20px
 $body-4-font-size: 0.75rem; // 12px
 $body-4-line-height: 1rem; // 16px
 
-
-a{
+a {
   text-decoration: none;
 }
 
@@ -42,6 +41,13 @@ h1 {
   font-size: $headline-1-font-size;
   line-height: $headline-1-line-height;
   font-weight: 600; // Semi Bold
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 3rem; 
+    line-height: 3.5rem; // 48px
+  }
 }
 
 h2 {
