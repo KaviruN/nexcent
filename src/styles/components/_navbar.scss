@@ -15,9 +15,9 @@
     justify-content: space-between;
   }
 
-  &__links{ 
-     color: var(--color-d-grey);
-     padding: 1em;
+  &__links {
+    color: var(--color-d-grey);
+    padding: 1em;
   }
 
   &__container {
@@ -36,6 +36,8 @@
       display: none;
       flex-direction: column;
     }
+
+
   }
 
   ul {
@@ -57,13 +59,20 @@
       width: 100%;
       text-align: center;
       padding: 1em;
+    }
 
+    @media (max-width: 768px) {
+      padding: .5em;
     }
   }
 
   &__auth--link {
     color: var(--color-primary);
     margin-right: 1em;
+
+    @media (max-width: 1008px) {
+      margin-right: 0;
+    }
   }
 
   a {
