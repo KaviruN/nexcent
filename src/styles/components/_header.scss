@@ -1,5 +1,5 @@
 @use "../global/typography" as typo;
-@use "../util/functions" as u;
+@use "../util/functions" as f;
 
 .header {
   background-color: var(--color-silver);
@@ -13,7 +13,7 @@
 
   @media (min-width: 768px) {
     flex-direction: row;
-    padding: u.em(96) u.em(144);
+    padding: f.em(96) f.em(144);
     text-align: left;
     justify-content: space-between;
     // padding: 6em;

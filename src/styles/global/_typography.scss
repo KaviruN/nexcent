@@ -45,7 +45,7 @@ h1 {
 
 @media (max-width: 768px) {
   h1 {
-    font-size: 3rem; 
+    font-size: 3rem;
     line-height: 3.5rem; // 48px
   }
 }
@@ -96,5 +96,13 @@ h4 {
   font-family: $font-family-secondary;
   font-size: $body-4-font-size;
   line-height: $body-4-line-height;
+  font-weight: 400; // Regular
+}
+
+p {
+  color: var(--color-grey);
+  font-family: $font-family-secondary;
+  font-size: $body-2-font-size;
+  line-height: $body-2-line-height;
   font-weight: 400; // Regular
 }
