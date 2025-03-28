@@ -41,6 +41,7 @@ h1 {
   font-size: $headline-1-font-size;
   line-height: $headline-1-line-height;
   font-weight: 600; // Semi Bold
+  color: var(--color-d-grey);
 }
 
 @media (max-width: 768px) {
@@ -55,6 +56,7 @@ h2 {
   font-size: $headline-2-font-size;
   line-height: $headline-2-line-height;
   font-weight: 600; // Semi Bold
+  color: var(--color-d-grey);
 }
 
 h3 {
@@ -62,6 +64,7 @@ h3 {
   font-size: $headline-3-font-size;
   line-height: $headline-3-line-height;
   font-weight: 600; // Semi Bold
+  color: var(--color-d-grey);
 }
 
 h4 {
@@ -69,6 +72,7 @@ h4 {
   font-size: $headline-4-font-size;
   line-height: $headline-4-line-height;
   font-weight: 600; // Semi Bold
+  color: var(--color-d-grey);
 }
 
 @mixin body-1 {
