@@ -3,6 +3,7 @@ import 'remixicon/fonts/remixicon.css'
 import Navbar from "./components/Navbar";
 import Header from "./components/Header";
 import Clients from "./components/Clients";
+import Cards from "./components/Cards";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Navbar />
       <Header />
       <Clients />
+      <Cards />
     </div>
   )
 }
