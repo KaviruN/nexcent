@@ -30,6 +30,8 @@
   }
 
   &__card {
+    display: grid;
+    justify-items: center;
     padding: 2em;
     width: 80%;
     box-shadow: 0 f.em(2) f.em(4) 0 hsla(210, 29%, 75%, 0.2);
@@ -49,6 +51,7 @@
   }
 
   &__img {
+    width: 45%;
     padding: 1em;
     display: flex;
     justify-content: center;

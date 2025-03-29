@@ -9,7 +9,7 @@ function Cards() {
             <div className="cards__container">
                 <div className="cards__card">
                     <div className="cards__img">
-                        <img src="src/assets/Icon1.png" />
+                        <img src="src/assets/icon1.png" />
                         <div className="cards__rectangle"></div>
                     </div>
                     <h3>Membership Organisations</h3>
@@ -17,7 +17,7 @@ function Cards() {
                 </div>
                 <div className="cards__card">
                     <div className="cards__img">
-                        <img src="src/assets/Icon2.png" />
+                        <img src="src/assets/icon2.png" />
                         <div className="cards__rectangle"></div>
                     </div>
                     <h3>National Associations</h3>
@@ -25,7 +25,7 @@ function Cards() {
                 </div>
                 <div className="cards__card">
                     <div className="cards__img">
-                        <img src="src/assets/Icon3.png" />
+                        <img src="src/assets/icon3.png" />
                         <div className="cards__rectangle"></div>
                     </div>
                     <h3>Clubs And Groups</h3>
