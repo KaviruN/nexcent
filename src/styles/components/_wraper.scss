@@ -1,0 +1,32 @@
+@use "../util/functions" as f;
+
+.wraper {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+  @media (min-width: 768px) {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__img{
+    @media (min-width: 768px) {
+      width: 100%;
+    //   max-width: 50%;
+    }
+  }
+
+  &__container {
+    padding: 2em;
+
+    & * {
+      margin-bottom: 1em;
+    }
+
+    & p {
+      margin-bottom: 2em;
+    }
+  }
+}
