@@ -1,8 +1,5 @@
 import CountUp from "react-countup";
 
-
-
-
 function Stats() {
     return (
         <section className="stats">
