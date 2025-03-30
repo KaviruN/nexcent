@@ -2,7 +2,7 @@ function About(){
     return (
         <section className="about">
             <div className="about__img">
-                <img src="" alt="" />
+                <img src="src/assets/about-img.png" alt="" />
             </div>
         </section>
     );
