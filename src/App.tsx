@@ -8,6 +8,7 @@ import Wraper from "./components/Wraper";
 import Stats from "./components/Stats";
 import About from "./components/About";
 import Community from "./components/Community";
+import Demo from "./components/Demo";
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
       />
       <About />
       <Community />
+      <Demo />
     </div>
   )
 }
