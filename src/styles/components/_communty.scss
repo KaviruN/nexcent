@@ -1,0 +1,16 @@
+@use "../util/functions" as f;
+
+
+.community {
+    &__content {
+        text-align: center;
+        margin: 1.5em;
+    }
+
+    &__card { 
+        width: 317px;
+        padding: 1em;
+        background-color: var(--color-silver);
+        gap: 1em;
+    }
+}
