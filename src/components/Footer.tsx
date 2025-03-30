@@ -39,7 +39,12 @@ function Footer() {
                 </div>
                 <div className="footer__content">
                     <h4>Stay up to date</h4>
-                    <input type="email" name="email" placeholder="Your emal address" />
+                    <div className="footer__subscribe">
+                        <input type="email" name="email" placeholder="Your email address" />
+                        <button type="submit" className="footer__subscribe-button">
+                            <i className="ri-send-plane-fill"></i>
+                        </button>
+                    </div>
                 </div>
             </div>
         </footer>
