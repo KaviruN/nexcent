@@ -1,0 +1,16 @@
+@use "../util/functions" as f;
+
+
+.about {
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+    text-align: center;
+
+    & h4 {
+        color: var(--color-primary);
+    }
+    & *{
+        margin: 1em 0;
+    }
+}
