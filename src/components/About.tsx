@@ -19,6 +19,7 @@ function About() {
                         <img src="src/assets/client-5.png" alt="" />
                         <img src="src/assets/client-6.png" alt="" />
                     </div>
+                    <a href="#" className="about__link">Meet all customers <i className="ri-arrow-right-long-fill"></i></a>
                 </div>
             </div>
 
