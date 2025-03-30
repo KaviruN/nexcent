@@ -1,5 +1,10 @@
 import Marquee from "react-fast-marquee";
-
+import client1 from "../assets/client-1.png";
+import client2 from "../assets/client-2.png";
+import client3 from "../assets/client-3.png";
+import client4 from "../assets/client-4.png";
+import client5 from "../assets/client-5.png";
+import client6 from "../assets/client-6.png";
 
 function Clients() {
   return (
@@ -11,22 +16,22 @@ function Clients() {
       <div className="client__images">
         <Marquee speed={90} pauseOnHover={true} gradient={false}>
           <div className="client__images--container">
-            <img src="src/assets/client-1.png" />
+            <img src={client1} alt="Client 1" />
           </div>
           <div className="client__images--container">
-            <img src="src/assets/client-2.png" />
+            <img src={client2} alt="Client 2" />
           </div>
           <div className="client__images--container">
-            <img src="src/assets/client-3.png" />
+            <img src={client3} alt="Client 3" />
           </div>
           <div className="client__images--container">
-            <img src="src/assets/client-4.png" />
+            <img src={client4} alt="Client 4" />
           </div>
           <div className="client__images--container">
-            <img src="src/assets/client-5.png" />
+            <img src={client5} alt="Client 5" />
           </div>
           <div className="client__images--container">
-            <img src="src/assets/client-6.png" />
+            <img src={client6} alt="Client 6" />
           </div>
         </Marquee>
       </div>

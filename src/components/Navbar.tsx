@@ -1,3 +1,6 @@
+import logo from '../assets/logo.png';
+
+
 function Navbar() {
 
     const toggleMenu = () => {
@@ -14,7 +17,7 @@ function Navbar() {
     return (
         <nav className="nav body-2">
             <div className="nav__logo">
-                <img src="src/assets/logo.png" alt="logo" />
+                <img src={logo} alt="logo" />
             </div>
             <div className="nav__container">
                 <ul>

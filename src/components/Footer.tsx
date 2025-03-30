@@ -1,9 +1,11 @@
+import logo2 from "../assets/logo2.png";
+
 function Footer() {
     return (
         <footer className="footer">
             <div className="footer__container">
                 <div className="footer__logo">
-                    <img src="src/assets/logo2.png" alt="Logo" />
+                    <img src={logo2} alt="Logo" />
                 </div>
                 <div className="footer__copyright">
                     <p>Copyright © 2020 Nexcent ltd.</p>
