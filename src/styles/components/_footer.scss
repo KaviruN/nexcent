@@ -1,14 +1,95 @@
-@use '../util/' as u;
+@use "../util/functions" as f;
 
 .footer {
+  background-color: hsla(200, 19%, 18%, 1);
+  color: white !important;
+  padding: 2em;
   text-align: center;
-  padding-block: 14px;
 
-  @include u.breakpoint(medium) {
-    padding-block: 20px;
+  @media (min-width: 768px) {
+    display: flex;
+    text-align: left;
+    padding: f.em(64) f.em(165) !important;
   }
 
-  p {
-    margin: 0;
+  & p,& a {
+    color: var(--color-silver) !important;
+    font-family: "Inter", sans-serif;
   }
+  & h4 {
+    color: white;
+  }
+
+  &__container{
+    display: flex;
+    flex-direction: column;
+    // align-items: center;
+    justify-content: center;
+    padding: 2em;
+
+
+  }
+
+  &__container:nth-child(2){
+    @media (min-width: 768px) {
+      width: 100%;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
+
+  &__logo{
+    max-width: 200px;
+  }
+
+  &__links{
+    list-style: none;
+    padding: 1em;
+  }
+
+  &__copyright{
+    margin: 1em;
+  }
+
+  &__social{
+    // margin-top: 2em;
+
+    & i{
+      // font-size: 2rem;
+      aspect-ratio: 1/1;
+      padding: .3em;
+      margin: .2em;
+      border-radius: 50%;
+      cursor: pointer;
+      
+      text-align: center;
+      background-color: hsla(0, 0%, 100%, 0.242);
+
+      &:hover{
+        background-color: hsla(0, 0%, 100%, 0.125);
+      }
+    }
+  }
+
+  & input, & button{
+    font-family: "Inter", sans-serif;;
+    background-color: hsla(0, 0%, 100%, 0.242);
+    outline: none;
+    border: none;
+    color: white;
+    padding: .5em;
+  }
+
+  & input{
+    border-start-start-radius: f.em(8);
+    border-end-start-radius: f.em(8);
+  }
+
+  & button{
+    margin-top: 1em;
+    border-start-end-radius: f.em(8);
+    border-end-end-radius: f.em(8);
+    cursor: pointer;
+  }
+
 }

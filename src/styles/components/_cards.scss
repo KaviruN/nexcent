@@ -1,0 +1,59 @@
+@use "../util/functions" as f;
+
+.cards {
+  text-align: center;
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    @media (min-width: 768px) {
+      flex-direction: row;
+    }
+  }
+
+  &__head {
+    display: grid;
+    justify-items: center;
+  }
+
+  &__head h2 {
+    @media (min-width: 768px) {
+      width: 50%;
+    }
+  }
+
+  &__head p {
+    padding: 1em;
+  }
+
+  &__card {
+    display: grid;
+    justify-items: center;
+    padding: 2em;
+    width: 80%;
+    box-shadow: 0 f.em(2) f.em(4) 0 hsla(210, 29%, 75%, 0.2);
+    margin-bottom: 1.5em;
+    border: 1px solid hsla(210, 29%, 75%, 0.2); // border not in the design
+    border-radius: f.em(8);
+    cursor: default;
+    max-width: f.em(300);
+
+    &:hover {
+      scale: 1.02;
+    }
+
+    @media (min-width: 768px) {
+      margin: 1em 1.5em;
+    }
+  }
+
+  &__img {
+    width: 45%;
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+  }
+}

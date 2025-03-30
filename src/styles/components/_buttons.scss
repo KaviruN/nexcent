@@ -1,0 +1,13 @@
+@use "../util/functions" as f;
+
+.button {
+  font-family: "Inter", sans-serif;
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  border-radius: f.em(6);
+  padding: f.em(14) f.em(32);
+
+  &:hover {
+    background-color: var(--color-tint-1);
+  }
+}

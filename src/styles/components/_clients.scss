@@ -1,0 +1,42 @@
+@use "../util/functions" as f;
+
+.client {
+  width: 100%;
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  padding: f.em(40) 0.1em;
+
+
+
+  &__images {
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+
+    @media screen and (min-width: 768px) {
+      width: 50%;
+      justify-self: center;
+    }
+
+    &--container {
+      margin: 0 2.3em;
+
+      & img {
+        width: 100%;
+      }
+    }
+  }
+}
+
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(calc(-100% - 1em));
+  }
+}
+
+
