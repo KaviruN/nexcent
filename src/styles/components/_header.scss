@@ -25,6 +25,7 @@
 
   &__para {
     padding: 1em;
+    margin: 1em;
     @include typo.body-2;
     color: var(--color-grey);
 

@@ -13,17 +13,15 @@
 
     & *{
         margin: 2rem 0;
-
-        @media (max-width: 768px) {
-            padding: 2rem 0;
-        }
     }
 
     & h1 {
         color: hsl(0, 0%, 0%) !important;
+        padding: 2rem 0;
 
         @media (min-width: 768px) {
             width: f.rem(887);
+            
         }
     }
 }
